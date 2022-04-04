@@ -1,0 +1,60 @@
+.App {
+  padding-top: 100px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  align-items: center;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+}
+input,
+textarea {
+  background-color: rgb(207, 207, 207);
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+
+.form-control:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.8rem;
+  border-radius: 5px;
+  border: 0;
+  background-color: rgb(76, 76, 182);
+  color: white;
+  font-weight: bold;
+}
+button:hover {
+  cursor: pointer;
+}
+
+.cards-container {
+  margin-top: 50px;
+}
+
+.card {
+  margin-top: 10px;
+}
